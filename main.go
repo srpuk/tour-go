@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"airnudge.com/learn/arrays"
+	"airnudge.com/learn/collections"
 	"airnudge.com/learn/loops"
 	"airnudge.com/learn/maths"
 	"airnudge.com/learn/pointers"
@@ -22,6 +22,7 @@ func main() {
 	maths.DoMaths()
 	loops.DoLooping()
 	pointers.DoPointers()
-	arrays.DoArrays()
+	collections.DoArrays()
+	collections.TestFunctionValues()
 
 }

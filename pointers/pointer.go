@@ -13,7 +13,7 @@ func DoPointers() {
 	fmt.Println("\nLets do pointers")
 
 	var v = Vertex{
-		1, 2,
+		1, 2, //literals
 	}
 	x := 2
 	q = &x
