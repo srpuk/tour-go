@@ -4,8 +4,10 @@ import (
 	"fmt"
 
 	"airnudge.com/learn/collections"
+	"airnudge.com/learn/interfacing"
 	"airnudge.com/learn/loops"
 	"airnudge.com/learn/maths"
+	"airnudge.com/learn/methods"
 	"airnudge.com/learn/pointers"
 )
 
@@ -24,5 +26,7 @@ func main() {
 	pointers.DoPointers()
 	collections.DoArrays()
 	collections.TestFunctionValues()
+	methods.DoMethods()
+	interfacing.DoInterfacing()
 
 }
