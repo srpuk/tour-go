@@ -9,6 +9,7 @@ import (
 	"airnudge.com/learn/maths"
 	"airnudge.com/learn/methods"
 	"airnudge.com/learn/pointers"
+	"airnudge.com/learn/typeparameters"
 )
 
 type Vertex struct {
@@ -28,5 +29,6 @@ func main() {
 	collections.TestFunctionValues()
 	methods.DoMethods()
 	interfacing.DoInterfacing()
+	typeparameters.DoTypeTest()
 
 }
