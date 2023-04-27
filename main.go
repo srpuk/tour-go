@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"airnudge.com/learn/collections"
+	"airnudge.com/learn/concurrency"
 	"airnudge.com/learn/interfacing"
 	"airnudge.com/learn/loops"
 	"airnudge.com/learn/maths"
@@ -30,5 +31,6 @@ func main() {
 	methods.DoMethods()
 	interfacing.DoInterfacing()
 	typeparameters.DoTypeTest()
+	concurrency.DoConcurrency()
 
 }
