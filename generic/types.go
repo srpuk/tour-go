@@ -1,4 +1,4 @@
-package typeparameters
+package generic
 
 import "fmt"
 

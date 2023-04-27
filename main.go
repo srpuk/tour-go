@@ -5,12 +5,12 @@ import (
 
 	"airnudge.com/learn/collections"
 	"airnudge.com/learn/concurrency"
+	"airnudge.com/learn/generic"
 	"airnudge.com/learn/interfacing"
 	"airnudge.com/learn/loops"
 	"airnudge.com/learn/maths"
 	"airnudge.com/learn/methods"
 	"airnudge.com/learn/pointers"
-	"airnudge.com/learn/typeparameters"
 )
 
 type Vertex struct {
@@ -30,7 +30,7 @@ func main() {
 	collections.TestFunctionValues()
 	methods.DoMethods()
 	interfacing.DoInterfacing()
-	typeparameters.DoTypeTest()
+	generic.DoTypeTest()
 	concurrency.DoConcurrency()
 
 }
