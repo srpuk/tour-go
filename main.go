@@ -32,5 +32,7 @@ func main() {
 	interfacing.DoInterfacing()
 	generic.DoTypeTest()
 	concurrency.DoConcurrency()
+	concurrency.DoMutex()
+	concurrency.DoWait()
 
 }
